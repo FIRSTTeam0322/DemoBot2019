@@ -39,7 +39,7 @@ public class Robot extends TimedRobot {
   public static ChassisSensors chassisSensors;
   public static LEDControl ledControl;
   public static DriverStation DS;
-  public static UsbCamera frontCameraServer, rearCameraServer;
+  public static UsbCamera frontCameraServer;
 
   /**
    * This function is run when the robot is first started up and should be used
@@ -64,10 +64,7 @@ public class Robot extends TimedRobot {
   //Setup Camera
   frontCameraServer = CameraServer.getInstance().startAutomaticCapture();
   frontCameraServer.setResolution(640, 360);
-  
-  rearCameraServer = CameraServer.getInstance().startAutomaticCapture();
-  rearCameraServer.setResolution(640, 360);
-  
+
   //Setup roboPrefs
   robotPrefs = Preferences.getInstance();
     
