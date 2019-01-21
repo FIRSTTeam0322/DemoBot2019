@@ -2,11 +2,9 @@ package frc.robot;
 
 import com.ctre.phoenix.CANifier;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
-
 import edu.wpi.first.wpilibj.PowerDistributionPanel;
 import edu.wpi.first.wpilibj.SpeedControllerGroup;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
-
 import com.analog.adis16448.frc.ADIS16448_IMU;
 
 /**
