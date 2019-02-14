@@ -133,10 +133,12 @@ public class Robot extends TimedRobot {
 
   @Override
   public void testInit() {
+    getRoboPrefs();
   }
 
   @Override
   public void testPeriodic() {
+    debugOutput();
   }
 
 	public void getRoboPrefs() {
